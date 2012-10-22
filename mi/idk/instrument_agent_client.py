@@ -323,8 +323,8 @@ class InstrumentAgentDataSubscribers(object):
         streams = {
             #'ctd_parsed' : 'ctd_parsed_param_dict',
             #'ctd_raw' : 'ctd_raw_param_dict',
-            'parsed' : 'data_particle_parsed_param_dict',
-            'raw' : 'data_particle_raw_param_dict',
+            'parsed' : 'ctd_parsed_param_dict',
+            'raw' : 'ctd_raw_param_dict',
         }
 
         for (stream_name, param_dict_name) in streams.iteritems():
